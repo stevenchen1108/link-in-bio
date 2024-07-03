@@ -1,0 +1,38 @@
+body{
+    background: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+}
+
+header > img {
+    margin-top: 10em; /* spacing the top*/
+    border-radius: 100%;
+    border: 1px solid white ;
+    box-shadow: 0 0 0.75em white ;
+}
+
+ul{
+    box-sizing: border-box;
+    list-style: none; /* overwrites the inital style of html */
+    margin: auto 0; /* centering, using auto first itll put in center of page, if you use auto second itll put in center horizontally  */
+    padding: 2em; /* recommend using em since its relative to screen size instead of px */
+}
+
+ul > li{
+    background-color: white;
+    border-radius: 5em; 
+    padding: 1em ; /* how far off from text to edges */
+    margin: 1em auto; /* centering horizonally */
+    box-shadow: 0 0 0.75em white; /* adds shadow under */
+    text-align: center;
+}
+
+ul > li > a{
+    color: black; 
+    text-decoration: none;
+}
